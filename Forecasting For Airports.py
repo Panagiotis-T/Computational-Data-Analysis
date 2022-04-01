@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 plt.style.use('ggplot')
 import io
 
-df = pd.read_excel(r'D:\Documents\DTU/02582 Computational Data Analysis/Case 1/Realized Schedule 20210101-20220228.xlsx', engine='openpyxl')
+df = pd.read_excel(r'PATH', engine='openpyxl')
 
 def make_plot(y, predi):
     plt.figure(figsize=(10,10))
